@@ -1,7 +1,7 @@
 # Vue 3 + TypeScript + Vite
 
 # 安装依赖
-pnpm i
+npm i
 
 # 运行项目
-pnpm dev
+npm dev
