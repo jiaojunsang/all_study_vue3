@@ -1,2 +1,7 @@
-# all_study_vue3
-vue3+TS技能练习
+# Vue 3 + TypeScript + Vite
+
+# 安装依赖
+pnpm i
+
+# 运行项目
+pnpm dev

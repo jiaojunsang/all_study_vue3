@@ -1,0 +1,142 @@
+@import "@/style/reset.scss";
+
+// margin值
+.mg10{
+    margin: 10px;
+}
+.mg15{
+    margin: 15px;
+}
+.mg20{
+    margin: 20px;
+}
+.mg30{
+    margin: 30px;
+}
+.mg50{
+    margin: 50px;
+}
+
+// margin宽度值
+.mw10{
+    margin: 0 10px;
+}
+.mw15{
+    margin: 0 15px;
+}
+.mw20{
+    margin: 0 20px;
+}
+.mw30{
+    margin: 0 30px;
+}
+.mw50{
+    margin: 0 50px;
+}
+// margin高度值
+.mh10{
+    margin: 10px 0;
+}
+.mh15{
+    margin: 15px 0;
+}
+.mh20{
+    margin: 20px 0;
+}
+.mh30{
+    margin: 30px 0;
+}
+.mh50{
+    margin: 50px 0;
+}
+// margin-top值
+.mt10{
+    margin-top: 10px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mt50{
+    margin-top: 50px;
+}
+// margin-left值
+.ml10{
+    margin-left: 10px;
+}
+.ml15{
+    margin-left: 15px;
+}
+.ml20{
+    margin-left: 20px;
+}
+.ml30{
+    margin-left: 30px;
+}
+.ml50{
+    margin-left: 50px;
+}
+// 宽度值
+.wid10{
+    width: 10%;
+}
+.wid50{
+    width: 50%;
+}
+.wid100{
+    width: 100%;
+}
+// 排列值
+.al-le{
+    text-align: left !important;
+}
+.al-ce{
+    text-align: center !important;
+}
+.al-ri{
+    text-align: right !important;
+}
+// flex布局
+.flex{
+    display: flex;
+}
+.flex-al{
+    display: flex ;
+    align-items: center;
+}
+.flex-al-ju{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-al-ju-sb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cur-poi{
+    cursor: pointer;
+}
+
+
+// 滚动条
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+//滚动条滑块
+::-webkit-scrollbar-thumb{
+ background-color: $theme-color;
+ border-radius: 5px;
+
+}
+// 滚动条背景
+::-webkit-scrollbar-track{
+    background-color: #e1e1e1;
+}

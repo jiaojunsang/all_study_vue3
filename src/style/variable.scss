@@ -1,0 +1,23 @@
+// 全局变量文件，scss一般以$开头，less则一般以@开头
+// 全局变量需要在vite.config.js中先配置变量文件才能用
+/************注意样式结尾记得加分号**************/
+
+
+$color: skyblue;
+
+// 主题颜色
+$theme-color:#328fe6;
+
+// 边框颜色
+$base-border:#dcdfe6;
+
+// 左侧菜单的宽度
+$base-menu-width: 260px;
+// 左侧菜单折叠的宽度
+$base-menu-collapse-width: 60px;
+// 左侧菜单的颜色
+$base-menu-background:#001529;
+// 顶部导航高度
+$base-head-height: 60px;
+// 左侧菜单logo高度
+$base-menu-logo-height: 60px;
