@@ -148,6 +148,39 @@ export const constantRoutes = [
         ]
     },
     {
+        path: '/common',
+        name: 'common',
+        // redirect:'/common/map',
+        meta: {
+            title: '常用功能封装',
+            hidden:false,
+            icon:'Grid'
+        },
+        component: () => import('@/layout/index.vue'),
+        children:[
+            {
+                path: '/common/map',//path需添加父级路由
+                name: 'map',
+                meta: {
+                    title: '高德地图',
+                    hidden: false,
+                    icon:'HomeFilled'
+                },
+                component: () => import('@/views/common/map/index.vue')
+            },
+            // {
+            //     path: '/common/map',//path需添加父级路由
+            //     name: 'map',
+            //     meta: {
+            //         title: '高德地图',
+            //         hidden: false,
+            //         icon:'HomeFilled'
+            //     },
+            //     component: () => import('@/views/common/map/index.vue')
+            // },
+        ]
+    },
+    {
         path: '/404',
         name: 'notFount',
         meta: {

@@ -42,6 +42,7 @@ const isShowchildMenu = (item) => {
 }
 // 跳转至对应路由
 const menuClick = (path)=>{
+    console.log(path,'path');
     $router.push({path})
 }
 </script>
@@ -59,7 +60,7 @@ const menuClick = (path)=>{
 
         </el-menu-item>
         <!-- 二级菜单只有一个 -->
-        <el-menu-item :index="item.children[0].path" v-if="isShowchildOneMenu(item)" @click="menuClick(item.path)">
+        <el-menu-item :index="item.children[0].path" v-if="isShowchildOneMenu(item)" @click="menuClick(item.children[0].path)">
             <el-icon>
                     <component :is="item.children[0].meta.icon"></component>
                 </el-icon>
