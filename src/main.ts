@@ -12,6 +12,7 @@ import pinia from "@/store/index.ts"
 import Particles from "vue3-particles" 
 import '@/style/index.scss'//引入全局样式表
 import './permission' //引入路由鉴权（引入顺便执行）
+import regexp from "@/utils/regexp"
 
 
 const app = createApp(App)
@@ -27,4 +28,5 @@ app.use(router)
 app.use(pinia)
 app.use(Particles)
 app.mount('#app')
+app.config.globalProperties.$regexp = regexp
 
